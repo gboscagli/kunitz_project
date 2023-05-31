@@ -5,4 +5,4 @@
 - **entry_eval.class** is the file with all SwissProt entries (positives + negatives) with the relative e-value.
 - **performance.py** calculates MCC and confusion matrix.
 - **positive_id_list.txt** is a list of the sequences (w/o traning sequences) that must be given in input while running performance.py.
-- Training FASTA sequences have been removed from positive dataset using **common_sequence_remover.py**.
+- **common_sequence_remover.py** is used to remove training FASTA sequences from the positive dataset.
